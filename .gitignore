@@ -1,0 +1,42 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor config files
+.vscode/
+.idea/
+*.swp
+
+# Ignore logs
+*.log
+
+# Ignore Jupyter notebook checkpoints (if any)
+.ipynb_checkpoints/
+
+# Ignore temp files
+*.tmp
+*.bak
+*~
+
+# Ignore test output
+.coverage
+.cache/
+
+# Ignore generated images (optional)
+images/*.svg
+images/*.tmp.png
+
+# Optional: ignore CSVs if using large sensitive ones
+# data/*.csv
