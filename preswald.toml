@@ -1,0 +1,20 @@
+[project]
+title = "Netflix Visual Insights"
+version = "0.1.0"
+port = 8501
+slug = "netflix-dashboard"
+entrypoint = "hello.py"  # ✅ Matches your script file
+
+[branding]
+name = "Netflix Visual Explorer"
+logo = "images/logo.png"           # Optional (only visible in sidebar)
+favicon = "images/favicon.ico"     # ✅ Will show in browser tab
+primaryColor = "#E50914"           # Netflix red 💥
+
+[data.sample_csv]
+type = "csv"
+path = "data/netflix_titles.csv"
+
+[logging]
+level = "INFO"
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
